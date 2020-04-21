@@ -1,4 +1,0 @@
-Stone: 0.3
-Cube, standart sphere: 0.1
-Subdivisioned sphere: 3.1
-Bunny: 1.3
