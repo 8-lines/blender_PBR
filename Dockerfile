@@ -25,4 +25,5 @@ WORKDIR /bscript
 RUN git clone https://github.com/8-lines/blender_PBR
 WORKDIR /bscript/blender_PBR
 RUN dos2unix linux-run.sh
-CMD linux-run.sh
+RUN chmod +x linux-run.sh
+RUN ./linux-run.sh
