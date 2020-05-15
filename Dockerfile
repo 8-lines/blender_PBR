@@ -23,6 +23,8 @@ RUN pip3 install opencv-python
 RUN mkdir /bscript
 WORKDIR /bscript
 RUN git clone https://github.com/8-lines/blender_PBR
+RUN mkdir -p /bscript/blender_PBR/images_big
+RUN mkdir -p /bscript/blender_PBR/output
 WORKDIR /bscript/blender_PBR
 RUN dos2unix linux-run.sh
 RUN chmod +x linux-run.sh
