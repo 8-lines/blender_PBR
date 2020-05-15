@@ -17,12 +17,12 @@ RUN sudo apt-get install -y git
 RUN apt-get install -y dos2unix
 RUN apt install -y python3-pip
 RUN sudo apt-get install -y libsm6 libxrender1 libfontconfig1
-RUN pip3 install -y scikit-image
-RUN pip3 install -y opencv-python
+RUN pip3 install scikit-image
+RUN pip3 install opencv-python
 # Set working directory and clone a repository
 RUN mkdir /bscript
 WORKDIR /bscript
 RUN git clone https://github.com/8-lines/blender_PBR
-WORKDIR /bscript/blender_PBR/docker-container
+WORKDIR /bscript/blender_PBR
 RUN dos2unix linux-run.sh
 CMD linux-run.sh
