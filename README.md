@@ -12,6 +12,7 @@ All requirements you can install from the 'requirements.txt' file. Just run $ pi
 1. Run "run.bat".
 2. When finished, close the console.
 3. Open "stone.blend" file. All done!
+4. Completed object is located in output folder.
 
 ## Structure
 * "images" folder contains generated textures and original image of the stone
