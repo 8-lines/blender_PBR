@@ -1,5 +1,6 @@
 REM !!!-------Please add a path to folder with blender.exe to the PATH-------!!!
 
+IF NOT EXIST images_big (mkdir images_big)
 python bitmap2material\photo2material.py
 python scripts\multiple_texture.py
 IF NOT EXIST stone.blend (blender -b --python scripts\create_blend_file.py)
