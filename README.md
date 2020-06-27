@@ -14,10 +14,10 @@ All requirements you can install from the 'requirements.txt' file. Just run $ pi
 3. Open "stone.blend" file. All done!
 
 ## Running in Docker:
-1. Download "Dockerfile"
+1. Download "Dockerfile".
 2. Run "docker build ./" inside directory with "Dockerfile".
 3. When finished, run "docker run -it image_id" (you get image_id after successful completion of step 2).
-4. Run "./linux-run.sh"
+4. Run "./linux-run.sh".
 
 ## Structure
 * "images" folder contains generated textures and original image of the stone
