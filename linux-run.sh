@@ -1,3 +1,4 @@
+mkdir -p images_big
 python3 bitmap2material/photo2material.py
 python3 scripts/multiple_texture.py
 rm stone.blend
